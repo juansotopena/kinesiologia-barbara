@@ -333,7 +333,7 @@ p { margin: 0; }
 }
 .contact__details > div { display: flex; flex-direction: column; gap: 2px; }
 .contact__details dt { font-size: 14px; font-weight: 600; opacity: 0.85; }
-.contact__details dd { margin: 0; font-size: 18px; font-weight: 600; }
+.contact__details dd { margin: 0; font-size: 18px; font-weight: 600; overflow-wrap: anywhere; }
 .contact__details a { color: inherit; text-decoration: none; }
 .contact__details a:hover { text-decoration: underline; color: inherit; }
 
